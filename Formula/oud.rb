@@ -1,16 +1,17 @@
 class Oud < Formula
   desc "Internet radio from every country, in the terminal"
   homepage "https://oud.so"
-  version "0.1.0"
+  license "MIT"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/oud-so/homebrew-tap/releases/download/v0.1.0/oud-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ecb9dde53302381a79cd699ba82613fdb8602ee0fc4f078c3998c839da7abfb4"
+      url "https://github.com/oud-so/homebrew-tap/releases/download/v0.1.1/oud-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "9ea8c0f24871ab93db0eef94f03a5e01c0fe4944d31b7d73dba2dec91ef32c9d"
     end
     on_intel do
-      url "https://github.com/oud-so/homebrew-tap/releases/download/v0.1.0/oud-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5700dafa9e496f11bcc5898604b062be04b5536a9abdf7615da1f278a52051a0"
+      url "https://github.com/oud-so/homebrew-tap/releases/download/v0.1.1/oud-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "95c9a4d27602a43bbca1cc98e530348a2dcbd0237210cea2d03e4f53a80b891f"
     end
   end
 
